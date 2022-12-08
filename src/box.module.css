@@ -1,0 +1,28 @@
+  /* a box that is at the center of the page */
+
+    .box{
+        object-position: 10em 10em;
+        object-position: 0pc 0pc;
+        width: 500px;
+        height: 500px;
+        padding: 5px;
+        background-color: #2d3034;
+        transform: translate(600px,200px);
+        background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgb(58, 60, 57) 50%,rgb(99, 87, 87) 51%,rgb(66, 133, 164) 100%);
+    }
+
+    button{
+        background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        width: 98px;
+        height: 70px;
+        font-size: large;
+    }
+
+    input{
+        background: linear-gradient(to bottom,  rgba(226,226,226,1) 0%,rgba(219,219,219,1) 50%,rgba(209,209,209,1) 51%,rgba(254,254,254,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        width: 480px;
+        height: 80px;
+        border-radius: 5px;
+        backdrop-filter: blur(10px);
+        font-size :60px;
+    }
